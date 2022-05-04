@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const StyledMenu = styled.nav`
   display: flex;
-  background: ${({ theme }) => theme.primaryLight};
   text-align: left;
   transition: transform 0.3s ease-in-out;
   white-space: nowrap;
