@@ -31,7 +31,7 @@ export const StyledMenuItem = styled.li`
   }
 
   li:hover + div {
-    width: 100%;\
+    width: 100%;
     background-color: red;
   }
 
