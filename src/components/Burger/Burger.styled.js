@@ -16,6 +16,6 @@ export const StyledBurger = styled.button`
     width: 2rem;
     height: 0.25rem;
     border-radius: 10px;
-    background-color: ${color.primaryDark};
+    background-color: ${color.primary2};
   }
 `;
