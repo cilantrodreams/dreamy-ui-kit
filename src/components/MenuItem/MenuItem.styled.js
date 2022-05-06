@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { color } from "../../shared/styles";
 
 export const StyledMenuItem = styled.li`
   display: inline-block;
@@ -6,7 +7,7 @@ export const StyledMenuItem = styled.li`
   text-transform: uppercase;
   padding: 0 2rem;
   font-weight: bold;
-  color: ${({ theme }) => theme.primaryDark};
+  color: ${color.primary2};
   text-decoration: none;
   transition: color 0.3s linear;
   list-style-type: none;
@@ -18,15 +19,15 @@ export const StyledMenuItem = styled.li`
   }
 
   &:hover {
-    color: red;
+    color: ${color.primary1};
   }
 
   div {
     position: relative;
     width: 0;
     height: 5px;
-    background-color: black;
-    border-color: white;
+    background-color: ${color.primary1};
+    border-color: transparent;
     transition: 0.5s ease-in-out;
   }
 
