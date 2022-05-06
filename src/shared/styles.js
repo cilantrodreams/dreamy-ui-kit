@@ -1,6 +1,7 @@
 import { css } from "styled-components";
 
 export const color = {
-  primaryDark: "#A7BEAE",
-  primaryLight: "#E5E5E5",
+  primary1: "#B85042", // muted scarlet
+  primary2: "#E7E8D1", // light olive
+  primary3: "#A7BEAE", // light teal
 };
